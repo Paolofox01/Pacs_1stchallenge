@@ -1,7 +1,7 @@
 # PACS 2024 first challenge
 
 This code allows the user to find the minimum of a function using different methods and schemes.
-The choice is between the Armijo rule, Exponential decay and Inverse decay for alpha and gradient method, momentum method and nesterov method for the scheme to implement. The will be done after launching the program.
+The choice is between the Armijo rule, Exponential decay and Inverse decay for alpha and gradient method, momentum method and nesterov method for the scheme to implement. The choice will be done after launching the program.
 
 ## json file
 the function to minimize and the other parameters are stored in the parameters.json file and can therefore be changed by changing their value in the file. They contain:
