@@ -15,9 +15,9 @@ the function to minimize and the other parameters are stored in the parameters.j
 "init_cond" : 
     "dim"     --> number of variables
     "first"   --> starting value for the first variable
-    "second"  --> starting value for the second varriable
+    "second"  --> starting value for the second variable
 
-the points will be stored in a vector of the Eigen library
+in this case the initial point has 2 variables and will be stored in a vector of the Eigen library
 
 "init_alpha" --> value of alpha_0, preferably in (0.1, 0.5)
 
