@@ -97,7 +97,8 @@ template <method metodo> Eigen::VectorXd compute_min(parameters const & pars)  {
 
 
     } while(k < pars.max_it && step.norm() > pars.tol_s && grad(x_new).norm() > pars.tol_r );
-
+//@note notmally you do not print from a low lever function. You should return the number of iterations and print from the main function, or from a function that calls this one.
+//Exceptions: when debugging.
     std::cout << "The process finished in "  << k  << " iterations"   << std::endl;
     
 
